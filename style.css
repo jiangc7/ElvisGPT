@@ -2,47 +2,51 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: calc(100vh - 50px); /* 减去顶部间距的高度 */
-    margin-top: 50px; /* 顶部间距 */
-    text-align: center;
-  }
-  
-  /* 增加输入框宽度 */
-  input[type="text"] {
-    width: 100%; /* 使用100%填充其容器的宽度 */
-    max-width: 400px; /* 设置最大宽度，避免过度拉伸 */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    width: 90%;
+    margin: 50px auto; /* 居中并添加顶部间距 */
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 500px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 10px;
-  }
-  
-  /* 样式表单 */
-  form {
-    width: 100%; /* 使用100%填充其容器的宽度 */
-    max-width: 500px; /* 设置最大宽度，避免过度拉伸 */
+    box-sizing: border-box; /* 保证宽度计算包含边框和内边距 */
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
     background-color: #f5f5f5;
     padding: 15px;
     border-radius: 5px;
     text-align: center;
-  }
-  
-  button[type="submit"] {
+    box-sizing: border-box; /* 保证宽度计算包含边框和内边距 */
+}
+
+button[type="submit"] {
     background-color: #007bff;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  /* 样式聊天记录 */
-  #chat-log {
+}
+
+#chat-log {
     background-color: #f9f9f9;
     padding: 15px;
     border-radius: 5px;
     max-height: 300px;
     overflow-y: auto;
     text-align: left;
-    max-width: 500px;
-  }
+    max-width: 600px;
+    box-sizing: border-box; /* 保证宽度计算包含边框和内边距 */
+}
