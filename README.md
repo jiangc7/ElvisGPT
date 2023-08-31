@@ -1,5 +1,6 @@
 # ElvisGPT
 API for chatGPT 4.0 test version
+![image](https://github.com/jiangc7/ElvisGPT/assets/118397495/820ff41d-c13f-4b24-b8ee-dba7834d41d7)
 
 ## install node
 
